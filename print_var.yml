@@ -28,3 +28,7 @@
     - name: reload
       ansible.builtin.debug:
         msg: "example handler"
+   
+    - name: test new features
+      ansible.builtin.debug:
+        msg: "this part of the new features"
